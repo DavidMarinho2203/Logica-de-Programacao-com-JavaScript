@@ -3,6 +3,7 @@ const form = document.querySelector('form')
 const respNome = document.getElementById('outNomeMedicamento')
 const respPromocao = document.getElementById('outPromocaoRemedio')
 
+// adicionando um evento ao botao submit do form
 form.addEventListener('submit', (e) =>{
     // Usado para não recarregar a página.
     e.preventDefault()

@@ -2,6 +2,7 @@
 const form = document.querySelector('form')
 const respValorAPagar = document.getElementById('outValorAPagar')
 
+// adicionando um evento ao botao submit do form
 form.addEventListener('submit', (e) => {
     // usado para não recarregar a página
     e.preventDefault()

@@ -10,10 +10,10 @@ ex: Cap01,Cap02...
 Todo capítulo vai ter um "exercício.md" dentro da pasta do exercício, que vai mostrar a proposta do exercício.
 
 **Arquivos da resposta do exercício**
-Os arquivos vão ser criados com os nomes "resp1_a.html, resp1_b, ..." vão está mudando o número para seus respectivos capítulos, e as letras em para caso tenham mais que exercício. 
-ex: cap1/resp1_a (1° exercício do capítulo 1)
-ex: cap2/resp2_c (3° exercício do capítulo 2)
-ex: cap3/resp4_b (2° exercício do capítulo 4)
+Os arquivos vão ser criados com os nomes "ex1_a.html, ex1_b, ..." vão está mudando o número para seus respectivos capítulos, e as letras em para caso tenham mais que exercício. 
+ex: cap1/ex1_a (1° exercício do capítulo 1)
+ex: cap2/ex2_c (3° exercício do capítulo 2)
+ex: cap3/ex4_b (2° exercício do capítulo 4)
 
 # exceções
 Provavelmente vai ter algums capítulos que vai ter exemplos, seja em Node.js, ou só em html e js mesmo.

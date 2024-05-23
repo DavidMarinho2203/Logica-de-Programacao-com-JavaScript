@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex4_b</title>
+    <script src="./index.js" defer></script>
+    <link rel="stylesheet" href="../Css Padrão.css">
+</head>
+<body>
+    <main>
+        <img src="https://static.vecteezy.com/ti/vetor-gratis/p3/20526251-velocimetro-icone-ilustracao-rapidez-indicador-plano-desenho-animado-estilo-adequado-para-rede-aterrissagem-pagina-bandeira-folheto-adesivo-papel-de-parede-fundo-gratis-vetor.jpg" alt="Foto de uma velocimetro">
+        <article>
+            <h1>Programa Verifica Velocidade</h1>
+            <form>
+                <p>Velocidade Permitida:
+                    <input type="number" min="0" step="1" id="inVelocidadePermitida" required>
+                </p>
+                <p>Velocidade do Condutor:
+                    <input type="number" min="0" step="1" id="inVelocidadeDoCondutor" required>
+                </p>
+                <input type="submit" value="Verificar Velocidade">
+            </form>
+            <h3 id="outSituacao"></h3>
+        </article>
+    </main>
+</body>
+</html>
